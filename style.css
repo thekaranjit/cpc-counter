@@ -1,0 +1,129 @@
+body {
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+  height: 70vh;
+}
+
+
+h1{
+  font-size:2em;
+  padding-top:10px;
+  text-align:center;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+h2{
+  padding-top:1px;
+  padding-top: 10px;
+  text-align:center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+
+p{
+  /* padding:2em; */
+  padding-top: 1px;
+  text-align:center;
+  margin-bottom: 1px;
+  margin-top:10px;
+  padding-bottom: 1px;
+}
+
+
+#container2{
+  place-items: center;
+  display: grid;
+
+}
+
+
+#final {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: all 0.1s ease-in;
+}
+
+
+#button-positive {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 15px 25px;
+  padding-left: 30px;
+
+  transition: all 0.1s ease-in;
+}
+
+#button-positive:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-positive:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+#button-negative {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: all 0.1s ease-in;
+}
+
+#button-negative:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-negative:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+#button-positive:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-positive:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+#button-reset {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: all 0.1s ease-in;
+}
+
+#button-reset:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-reset:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
