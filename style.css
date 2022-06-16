@@ -33,14 +33,8 @@ p{
 }
 
 
-#container2{
-  place-items: center;
-  display: grid;
 
-}
-
-
-#final {
+#counter-button {
   background-color: #fff;
   border: 1px solid #cacaca;
   border-radius: 4px;
@@ -51,79 +45,11 @@ p{
   transition: all 0.1s ease-in;
 }
 
-
-#button-positive {
-  background-color: #fff;
-  border: 1px solid #cacaca;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-  color: #ff7a18;
-  cursor: pointer;
-  padding: 15px 25px;
-  padding-left: 30px;
-
-  transition: all 0.1s ease-in;
-}
-
-#button-positive:hover {
+#counter-button:hover {
   box-shadow: none;
   color: #777;
 }
 
-#button-positive:active {
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-
-#button-negative {
-  background-color: #fff;
-  border: 1px solid #cacaca;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-  color: #ff7a18;
-  cursor: pointer;
-  padding: 15px 25px;
-  transition: all 0.1s ease-in;
-}
-
-#button-negative:hover {
-  box-shadow: none;
-  color: #777;
-}
-
-#button-negative:active {
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-
-
-
-#button-positive:hover {
-  box-shadow: none;
-  color: #777;
-}
-
-#button-positive:active {
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-
-#button-reset {
-  background-color: #fff;
-  border: 1px solid #cacaca;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-  color: #ff7a18;
-  cursor: pointer;
-  padding: 15px 25px;
-  transition: all 0.1s ease-in;
-}
-
-#button-reset:hover {
-  box-shadow: none;
-  color: #777;
-}
-
-#button-reset:active {
+#counter-button:active {
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
 }
