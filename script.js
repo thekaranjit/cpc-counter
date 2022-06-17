@@ -1,4 +1,3 @@
-let timer = document.getElementById('stopwatch');
 
 let hr = 0;
 let min = 0;
@@ -53,7 +52,8 @@ if (hr < 10 || hr == 0) {
   hr = '0'+ hr;
 }
 
-timer.innerHTML = hr + ":" + min + ":" + sec ;
+timer = hr + ":" + min + ":" + sec ;
+document.getElementById("stopwatch").innerHTML=timer;
 
 setTimeout("timerCycle()", 1000)
   }
@@ -61,7 +61,8 @@ setTimeout("timerCycle()", 1000)
 }
 
 function resetCounter(){
-  timer.innerHTML = '00:00:00';
+document.getElementById("stopwatch").innerHTML='00:00:00';
+
   hr = 0;
   min = 0;
   sec = 0;
