@@ -3,6 +3,7 @@ body {
   display: grid;
   place-items: center;
   height: 70vh;
+
 }
 
 
@@ -11,45 +12,114 @@ h1{
   padding-top:10px;
   text-align:center;
   margin-bottom: 1px;
-  padding-bottom: 1px;
+  padding-bottom: 70px;
 }
 
-h2{
-  padding-top:1px;
-  padding-top: 10px;
-  text-align:center;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  padding-bottom: 1px;
-}
+#header{
+    color: #black;
+    font-style: normal;
+    font-family: "Monospace";
+    font-size: 30px;
+    text-align: center;
+    /* text-shadow: 2px 2px #454b52; */
+		margin-top:20px;
+		margin-bottom:1px;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left:50px;
+    text-align: center;
 
-p{
-  /* padding:2em; */
-  padding-top: 1px;
-  text-align:center;
-  margin-bottom: 1px;
-  margin-top:10px;
-  padding-bottom: 1px;
-}
+  }
+
+  #stopwatch{
+    background-color: yellow;
+  }
 
 
-
-#counter-button {
+#button-start {
   background-color: #fff;
   border: 1px solid #cacaca;
-  border-radius: 4px;
+  border-radius: 1px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   color: #ff7a18;
   cursor: pointer;
-  padding: 15px 25px;
+  padding: 10px 25px;
   transition: all 0.1s ease-in;
+  margin-right: 20px;
 }
 
-#counter-button:hover {
+#button-start:hover {
   box-shadow: none;
   color: #777;
 }
 
-#counter-button:active {
+#button-start:active {
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+#button-stop {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: all 0.1s ease-in;
+  margin-right: 20px;
+}
+
+#button-stop:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-stop:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+#button-reset {
+  background-color: #fff;
+  border: 1px solid #cacaca;
+  border-radius: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  color: #ff7a18;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: all 0.1s ease-in;
+}
+
+#button-reset:hover {
+  box-shadow: none;
+  color: #777;
+}
+
+#button-reset:active {
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#btt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* button{
+@include corners (5px);
+background-color: #fff;
+border: 1px solid #cacaca;
+border-radius: 1px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+color: #ff7a18;
+cursor: pointer;
+padding: 10px 25px;
+transition: all 0.1s ease-in;
+  &:hover{
+	@include transition;
+  box-shadow: none;
+  color: #777;
+	} */
 }

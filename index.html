@@ -6,10 +6,26 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" language="javascript" src="script.js"></script>
 
+<!-- Ref: https://dev.to/gspteck/create-a-stopwatch-in-javascript-2mak -->
   </head>
-  <body>
+<body>
 
-<button id="counter-button" onclick= "counter()">Start</button>
+  <div id="header">
+
+<h1>Stopwatch Counter</h1>
+
+<div id="stopwatch">
+    00:00:00
+</div>
+
+</div>
+
+<div id="btt">
+<button id="button-start" onclick= "startCounter()">Start</button>
+<button id="button-stop" onclick= "stopCounter()">Stop</button>
+<button id="button-reset" onclick= "resetCounter()">Reset</button>
+
+</div>
 
 
   </body>
