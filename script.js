@@ -1,4 +1,4 @@
-let timer = getElementById('stopwatch')'
+let timer = document.getElementById('stopwatch');
 
 let hr = 0;
 let min = 0;
@@ -6,7 +6,7 @@ let sec= 0;
 let stoptime = true;
 
 
-function startCounter{
+function startCounter(){
 
   if (stoptime == true) {
     stoptime = false;
@@ -16,14 +16,14 @@ function startCounter{
 }
 
 
-function stopCounter {
+function stopCounter() {
   if (stoptime == false) {
     stoptime = true;
   }
 }
 
-function timerCycle{
-  if stoptime == false; {
+function timerCycle(){
+  if (stoptime == false) {
     hr = parseInt(hr);
     min = parseInt(min);
     sec = parseInt(sec);
@@ -54,10 +54,18 @@ if (hr < 10 || hr == 0) {
 }
 
 timer.innerHTML = hr + ":" + min + ":" + sec ;
-setTimeout("timerCycle()", 1000) 
+
+setTimeout("timerCycle()", 1000)
   }
 
+}
 
+function resetCounter(){
+  timer.innerHTML = '00:00:00';
+  hr = 0;
+  min = 0;
+  sec = 0;
+  stoptime = true;
 
 
 }
